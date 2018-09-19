@@ -24,7 +24,7 @@ input[type='text'] {
     padding-top: 10px;
     padding-bottom: 10px;
     display: block;
-    width: 85%;
+    width: 100%;
     margin: 10px 10px 30px 10px;
 }
 
@@ -60,5 +60,33 @@ footer {
 
 input[type='submit'] {
     padding: 10px 5px;
+    margin-top: 15px;
+}
 
+.inputs ul {
+    width: 495px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+.inputs ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.inputs ul li a {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.inputs ul li a img {
+    margin: 0; 
+    padding: 0;
+    display: block;
+    width: 100%;
 }
